@@ -88,7 +88,7 @@ void inicializar()
 	primeiro = NULL;
 	ultimo = NULL;
 	cout << "Lista inicializada \n";
-
+	return;
 }
 
 void exibirQuantidadeElementos() {
@@ -100,7 +100,7 @@ void exibirQuantidadeElementos() {
 		aux = aux->prox;
 	}
 	cout << "Quantidade de elementos: " << nElementos << endl;
-
+	return;
 }
 
 void exibirElementos()
